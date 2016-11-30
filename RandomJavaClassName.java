@@ -9,6 +9,9 @@ public class RandomJavaClassName
 		return this.msg;
 	}
 	
-
+	public void setMessage(String msg)
+	{
+		this.msg = msg;
+	}
 
 }

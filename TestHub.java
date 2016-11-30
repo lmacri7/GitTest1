@@ -2,7 +2,9 @@ public class TestHub
 {
 	public static void main(String[] args)
 	{
-		System.out.println("Hello World!");
+		RandomJavaClassName rjcn = new RandomJavaClassName();
+
+		System.out.println(rjcn.getMessage());
 		
 	}
 }

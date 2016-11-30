@@ -5,6 +5,10 @@ public class TestHub
 		RandomJavaClassName rjcn = new RandomJavaClassName();
 
 		System.out.println(rjcn.getMessage());
+
+		AnotherRandomClass arc = new AnotherRandomClass();
+
+		arc.print();
 		
 	}
 }
